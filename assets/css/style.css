@@ -57,6 +57,12 @@ html {
   color: #fff !important;
 }
 
+@media (max-width: 768px){
+      .is-sm-white{
+          color: #fff;
+      }
+    }
+
 .bg-section-secondary {
     background-color: #f3f3f3 !important;
 }
