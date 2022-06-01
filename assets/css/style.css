@@ -2,6 +2,10 @@
     font-family: 'Itim', cursive;
 }
 
+html{
+    overflow-x: hidden;
+}
+
 :root{
     --nav-height: 3.2rem;
 }
