@@ -32,6 +32,9 @@ html {
 .bg-sm-pink{
     background: #3f3d56 ;
   }
+  is-sm-white{
+      color: #fff;
+  }
 }
 
 .bg-degrade{
@@ -260,7 +263,7 @@ html {
 }
 
 .navbar-toggler.collapsed .toggler-icon {
-    background-color: #0bd696;
+    background-color: #00bfa6;
 }
 
 #MenuTopo.bg-pink a{
