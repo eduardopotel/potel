@@ -28,6 +28,12 @@ html {
   background: #3f3d56 ;
 }
 
+@media (max-width: 768px){
+.bg-sm-pink{
+    background: #3f3d56 ;
+  }
+}
+
 .bg-degrade{
   background: linear-gradient(91deg,#8231c3 0,#0bd696 100%);
 }
