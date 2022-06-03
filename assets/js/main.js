@@ -3,6 +3,7 @@ window.addEventListener('scroll', onScroll)
 
 function onScroll() {
   showNavOnScroll()
+  showBackToTopOnScroll()
 }
 
 function showNavOnScroll() {
@@ -10,6 +11,14 @@ function showNavOnScroll() {
     MenuTopo.classList.add('bg-pink')
   } else {
     MenuTopo.classList.remove('bg-pink');
+  }
+}
+
+function showBackToTopOnScroll() {
+  if (scrollY > 500) {
+    backToTopButton.classList.add('show')
+  } else {
+    backToTopButton.classList.remove('show')
   }
 }
 
